@@ -38,7 +38,7 @@ if __name__ == "__main__":
     phi = 0
     annotation_path = '2007_train.txt'
 
-    classes_path = 'model_data/voc_classes.txt' 
+    classes_path = 'model_data/new_classes.txt'
     class_names = get_classes(classes_path)
     NUM_CLASSES = len(class_names)  
     #-------------------------------------------#

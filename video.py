@@ -11,7 +11,8 @@ for gpu in gpus:
 
 efficientdet = EfficientDet()
 
-capture=cv2.VideoCapture(1) # capture=cv2.VideoCapture("1.mp4")
+# capture = cv2.VideoCapture(1)
+capture=cv2.VideoCapture("768x576.avi")
 fps = 0.0
 while(True):
     t1 = time.time()
